@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Atividade 3</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/estilos.css" />
+		<link rel="stylesheet" href="./src/css/responsivo.css" />
+	</head>
+	<body>
+		<main>
+			<div class="carrossel">
+				<img class="imagem ativa" src="./src/imagens/devops.jpg"/>
+
+				<img class="imagem" src="./src/imagens/ferramentas.jpg"/>
+
+				<img class="imagem" src="./src/imagens/cliente.jpg"/>
+
+			</div>
+
+			<div class="conteudo">
+				<div class="informacoes">
+					<img class="logo" src="./src/imagens/devops.png"/>
+
+					<p class="descricao ativo" id="introducao">
+						<strong>Pesquisa de técnicas avançadas de programação web e mobile:</strong>
+						Este site visa mostrar as capacidades de programação e informar sobre o conceito de DevOPS. <br><br>
+					</p>
+					<p class="descricao" id="devops">
+						<strong>O que é DevOps?</strong><br>
+						DevOps é uma abordagem que combina o desenvolvimento de software (Dev) e as operações de TI (Ops), visando aprimorar a colaboração e a eficiência entre essas duas áreas. O principal objetivo do DevOps é criar um ciclo de desenvolvimento mais ágil e contínuo, reduzindo as barreiras entre as equipes e promovendo a automação de processos.<br><br>
+					</p>
+					<p class="descricao" id="praticas">
+						<strong>Práticas</strong><br>
+						As práticas do DevOps incluem: <br><br>    
+						<strong>Cultura colaborativa:</strong><br>
+						Promover a colaboração entre equipes de desenvolvimento, operações e outras áreas, incentivando a comunicação e o trabalho conjunto. <br><br>  
+						<strong>Integração Contínua (CI):</strong><br> 
+						Automatizar o processo de integração de código, permitindo que os desenvolvedores mesclam o código com frequência, reduzindo conflitos e identificando erros mais cedo. <br><br>       
+						<strong>Entrega Contínua (CD):</strong><br>
+						Automatizar o processo de implantação de software em ambientes de produção, garantindo que as alterações sejam entregues rapidamente e de forma confiável. <br><br>          
+						<strong>Automação de Infraestrutura:</strong><br> 
+						Usar ferramentas como código para automatizar a implantação e o gerenciamento da infraestrutura, garantindo consistência e escalabilidade. <br><br>               
+						<strong>Monitoramento Contínuo:</strong><br>
+						Monitorar constantemente o desempenho do sistema e os indicadores-chave de desempenho (KPIs), identificando problemas e áreas de melhoria. <br><br>
+						<strong>Segurança como código:</strong><br>
+						Integrar práticas de segurança desde o início do ciclo de vida do software, utilizando ferramentas automatizadas para identificar e corrigir vulnerabilidades. <br><br>              
+						<strong>Auditorias e conformidade:</strong><br> 
+						Realizar auditorias regulares e garantir que as práticas de segurança e conformidade sejam seguidas em todos os estágios do desenvolvimento e da operação. <br><br>
+						<strong>Feedback contínuo:</strong><br>
+						Coletar feedback regularmente de clientes, usuários e outras partes interessadas, utilizando-o para melhorar continuamente o software e os processos. <br><br>
+						<strong>Ciclo de retroalimentação rápida:</strong><br> 
+						Reduzir o tempo entre a identificação de um problema e a implementação de uma solução, garantindo uma resposta rápida e eficaz. <br>
+						Todas essas práticas visam acelerar o ciclo de desenvolvimento, aumentar a qualidade do software e melhorar a colaboração entre as equipes.<br><br>
+					</p>
+					<p class="descricao" id="ferramentas">
+						<strong>Ferramentas</strong><br>
+                    	Existem diversas ferramentas disponíveis para implementar práticas DevOps, como ferramentas de automação de infraestrutura (ex: Ansible, Terraform), de integração contínua (ex: Azure, Jenkins, Kubernetes, GitLab CI), de entrega contínua (ex: Spinnaker, AWS CodePipeline) e de monitorização (ex: Prometheus, Grafana).<br><br>
+					</p>
+					<p class="descricao" id="beneficios">
+						<strong>Benefícios</strong><br>
+                    	Os benefícios do DevOps incluem a redução do tempo de desenvolvimento e implantação de software, o aumento da qualidade e da estabilidade dos sistemas, além de confiabilidade, a melhoria na colaboração entre equipes e a maior capacidade de resposta às mudanças do mercado. Em resumo, o DevOps ajuda as empresas a entregarem valor aos clientes de forma mais rápida e eficiente.<br><br>
+					</p>
+				</div>
+
+				<div class="botoes-carrossel">
+					<button class="botao selecionado"></button>
+					<button class="botao"></button>
+					<button class="botao"></button>
+				</div>
+			</div>
+
+			<aside class="menu-lateral">
+				<ul>
+					<li>
+						<a href="https://github.com/marciotr" target="_blank">
+							<img src="./src/imagens/github.svg" alt="ícone GitHub" class="icone" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/marcio-torres-4b5295239/" target="_blank">
+							<img src="./src/imagens/linkedin-in.svg" alt="ícone LinkedIn" class="icone" />
+						</a>
+					</li>
+				</ul>
+			</aside>
+		</main>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
